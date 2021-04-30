@@ -5,7 +5,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 <!--===============================================================================================-->	
-	<link rel="icon" type="image/png" href="images/icons/favicon.png"/>
+	<link rel="icon" type="image/png" href="images/icons/unipa_logo.png"/>
 <!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
 <!--===============================================================================================-->
@@ -110,7 +110,7 @@
   var diff_h = Math.floor((t-(d*24*60*60*1000)) / (1000 * 60 * 60))
   var diff_m = Math.floor((t-(h*60*60*1000)) / (1000 * 60))
   var diff_s = Math.floor((t-(m*60*1000)) / (1000))
-  document.getElementById("days").innerHTML = d;
+  document.getElementById("days").innerHTML = -1.0 * d;
   document.getElementById("hours").innerHTML = diff_h;
   document.getElementById("minutes").innerHTML = diff_m;
   document.getElementById("seconds").innerHTML = diff_s;
